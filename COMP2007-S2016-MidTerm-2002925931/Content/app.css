@@ -88,6 +88,7 @@ body {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     cursor: pointer;
+
 }
 
 /* My Styles
@@ -100,9 +101,13 @@ body {
  */
 
 .blog-masthead {
-  background-color: #36607D;
+  background-color: #3649a0;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+a{
+    color: #dddddd;
+    margin-bottom: 2px;
 }
 /* Nav links */
 .blog-nav-item {
@@ -116,23 +121,16 @@ body {
 .navbar-brand {
   position: relative;
   display: inline-block;
-  padding: 15px;
-  font-weight: 500;
+  padding: 10px;
+  font-weight: 100;
   color: rgba(255, 255, 255, 0.8);
 }
 .navbar-header {
     background-size: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
 }
-img#img1 {
-    margin-top: 10px;
-    margin-bottom: -25px;
-    border :solid;
-    border-color : #36607D;
-    height:66px;
-    width:180px;
-    }
+
 
 /* Footer part*/
 p#p1 {

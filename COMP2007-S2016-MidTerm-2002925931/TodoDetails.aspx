@@ -1,4 +1,10 @@
 ﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP2007_S2016_MidTerm_2002925931.TodoDetails" %>
+
+<%--
+File   : TodoDetails.aspx
+Author : Nisarg Patel
+Website: http://comp2007-s2016-midterm-200292593.azurewebsites.net/
+Description:  This page contains textbox and checkbox to connect with DB--%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
           <div class="container">
         <div class="row">

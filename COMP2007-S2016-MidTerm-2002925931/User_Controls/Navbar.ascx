@@ -3,7 +3,7 @@
 <%--
 File   : Navbar.ascx
 Author : Nisarg Patel
-Website: http://gametrack.azurewebsites.net
+Website: http://comp2007-s2016-midterm-200292593.azurewebsites.net/
 Description:  This page contains My Navbar with CSS. --%>
 <link href="../Content/App.css" rel="stylesheet" />
 <nav class="blog-nav" role="navigation">

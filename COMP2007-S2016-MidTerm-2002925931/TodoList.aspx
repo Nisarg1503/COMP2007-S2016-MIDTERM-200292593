@@ -1,12 +1,16 @@
 ﻿<%@ Page Title="Todo List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoList.aspx.cs" Inherits="COMP2007_S2016_MidTerm_2002925931.TodoList" %>
-
+<%--
+File   : TodoList.aspx
+Author : Nisarg Patel
+Website: http://comp2007-s2016-midterm-200292593.azurewebsites.net/
+Description:  This page contains Gridview with some CRUD events and checkbox requests --%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="container ">
         <div class="row ">
             <div class="col-md-offset-2 col-md-8">
                 <h1>Todo List</h1>
-                <a href="~/TodoDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add Todo</a>
+                <a href="/TodoDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i>Add Todo</a>
 
                 <div>
                 <label for="PageSizeDropDownList">Records per page: </label>
@@ -29,12 +33,11 @@
                         <asp:BoundField DataField="TodoID" HeaderText="Todo ID" Visible="true" />
                         <asp:BoundField DataField="TodoName" HeaderText="Todo Name" Visible="true" />
                         <asp:BoundField DataField="TodoNotes" HeaderText="Todo Notes" Visible="true" />
-                        <asp:TemplateField>
+                        <asp:TemplateField HeaderText="Completed">
                             <ItemTemplate>
-                                <asp:CheckBox ID="chkCtrl" runat="server" />
+                                <asp:CheckBox ID="Compeleted" runat="server" HeaderText="Completed"/>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:CheckBoxField DataField="Completed" HeaderText="Completed" ReadOnly="true" Visible="true" />
                         <asp:HyperLinkField HeaderText="Edit" Text="<i class='fa fa-pencil-square-o fa-lg'></i> Edit"
                             NavigateUrl="~/TodoDetails.aspx.cs" ControlStyle-CssClass="btn btn-primary btn-sm" runat="server"
                             DataNavigateUrlFields="TodoID" DataNavigateUrlFormatString="TodoDetails.aspx?TodoID={0}" />
