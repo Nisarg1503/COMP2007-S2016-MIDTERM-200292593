@@ -5,7 +5,7 @@ File   : Navbar.ascx
 Author : Nisarg Patel
 Website: http://comp2007-s2016-midterm-200292593.azurewebsites.net/
 Description:  This page contains My Navbar with CSS. --%>
-<link href="../Content/App.css" rel="stylesheet" />
+<link href="../Content/App1.css" rel="stylesheet" />
 <nav class="blog-nav" role="navigation">
 <div class="blog-masthead">
     <div class="container">
