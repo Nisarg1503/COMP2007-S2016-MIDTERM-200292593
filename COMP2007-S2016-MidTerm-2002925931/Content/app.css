@@ -89,3 +89,53 @@ body {
     border: 1px solid #dddddd;
     cursor: pointer;
 }
+
+/* My Styles
+-------------------------------------------------- */
+
+
+ /*
+ * Navbar stylesheet
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #36607D;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* Nav links */
+.navbar-brand {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar-header {
+    background-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+img#img1 {
+    margin-top: 10px;
+    margin-bottom: -25px;
+    border :solid;
+    border-color : #36607D;
+    height:66px;
+    width:180px;
+    }
+
+/* Footer part*/
+p#p1 {
+    color: #2953b7;
+}
+
